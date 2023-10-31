@@ -1,0 +1,8 @@
+FB.api(
+  '/1020439325984243/events',
+  'POST',
+  {"data":"[{\"action_source\":\"system_generated\",\"custom_data\":{\"event_source\":\"crm\",\"lead_event_source\":\"TestCRM\"},\"event_name\":\"TestEvent\",\"event_time\":1698719557,\"user_data\":{\"lead_id\":7736742929720775}}]"},
+  function(response) {
+      // Insert your code here
+  }
+);
